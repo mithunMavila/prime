@@ -1,0 +1,295 @@
+*{
+    font-family: "Amazon Ember", "Amazon Arabic Ember", Arial, sans-serif;
+    padding: 0;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+   
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(to right,#2b2a2a,#0f171e);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+.fhead{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.logo{
+    width: 190PX;
+    height: 100PX;
+    padding-left: 15PX;
+    position: relative;
+    bottom: 6px;
+    
+}
+.cata {
+    
+    padding-top: 28px;
+    
+
+}
+
+.cata a{
+    color: rgba(242,244,246,.9);
+    font-size: 20px;
+    margin-left: 10px;
+}
+.down{
+    height: 18px;
+    width: 15px;
+}
+.shead{
+   
+    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.button{
+    margin-top: 27px;
+    background-color: #0f79af;
+height: 40px;
+width: 120px;
+border: none;
+border-radius: 5px;
+color: rgba(242,244,246,.9);
+    font-size: 20px;
+    margin-right: 20px;
+    
+}
+.shead .button:hover{
+    cursor: pointer;
+    background-color: #1ba5ea;
+    
+}
+.search{
+    height: 30px;
+    width: 30px;
+    margin-top: 17px;
+    margin-right: 20px;
+    padding-top: 17px;
+    
+}
+.globe{
+    padding-top: 17px;
+}
+
+.shead i{
+    padding: 17px;
+}
+.dbutton{
+    color: rgba(242,244,246,.9);
+    font-size: 20px;
+    border: none;
+    height: 15px;
+    width: 90px;
+    background-color:inherit;
+    padding-top: 27px;
+    margin-right: 20px;
+}
+
+.dropdown-content{
+    display: none;
+    position: fixed;
+    background-color: rgba(22,31,53,0.97);
+    min-width: 560px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    height: 400px;
+    
+
+}
+.dropdown-content a{
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    
+    background-color: #ddd;
+}
+.db:hover  .dropdown-content{
+    display: block;
+}
+.manb{
+    color: rgba(242,244,246,.9);
+    background-color:inherit;
+    padding-top: 27px;
+    border: none;
+    margin-right: 20px;
+
+}
+
+.welcome{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 515px;
+    background-image:url(images/hindimovie.jpg);
+    background-size: cover;
+
+}
+.main{
+    padding-left: 50px;
+    color:#ffffff;
+    font-size: 44px;
+   padding-bottom: 15px; 
+}
+.sub{
+    padding-left: 50px;
+    color: #ffffff;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+.sign{
+    height: 45px;
+    width: 300px;
+    background-color: #0f79af;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    margin-left: 50px;
+    border: none;
+}
+.welcome .sign:hover{
+    cursor: pointer;
+    background-color: #1ba5ea;
+    
+}
+.rmain{
+    color: #ffffff;
+    font-size: 44px;
+    margin-left: 50%;
+    padding-top: 15px;
+}
+.rsub{
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.rental{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 515px;
+    background-image:url(images/holly.jpg);
+    background-size: cover;
+
+}
+.rsign{
+    
+    margin-left: 50%;
+    height: 45px;
+    width: 300px;
+    background-color: #0f79af;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 17px;
+    border: none;
+}
+.rental .rsign:hover{
+    cursor: pointer;
+    background-color: #1ba5ea;
+    
+}
+.channel{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    
+}
+.chdetail{
+    width: 50%;
+    height: 620px;
+    
+}
+.chicon{
+    width: 50%;
+    height: 620px;
+    
+}
+.chicon .chimg:hover{
+    scale: 1.01;
+    box-shadow: 1px 2px 5px black;
+}
+.fav{
+    padding-left: 50px;
+    color:#0f171e;
+    font-size: 44px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.subscr{
+    padding-top: 20px;
+    padding-left: 50px;
+    color:#0f171e;
+    font-size: 24px;
+}
+.chimg{
+    height: 140px;
+    width: 240px;
+
+    margin: 3px;
+}
+.fire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 515px;
+    background-image:url(images/firestick.jpg);
+    background-size: cover;
+}
+.fire .rsign:hover{
+    cursor: pointer;
+    background-color: #1ba5ea;
+    
+}
+.family{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 515px;
+    background-image:url(images/beem.jpg);
+    background-size: cover;
+
+}
+.family .sign:hover{
+    cursor: pointer;
+    background-color: #1ba5ea;
+    
+}
+.footer{
+    background-color:#837f7f ;
+    width: 100%;
+    text-align: center;
+
+}
+.prime{
+    width: 130px;
+    height: 78px;
+}
+.btm{
+    color: #0f79af;
+}
+.last{
+    color: #fff ;
+}
